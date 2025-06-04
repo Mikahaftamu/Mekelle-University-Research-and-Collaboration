@@ -1,0 +1,632 @@
+/*
+Theme Name: BuddyX Child
+Theme URI: https://tilahun-goitom-w58h-h5kge8ihk-tilahuns-projects-82416c09.vercel.app/
+Description: A child theme for the BuddyX WordPress theme.
+Author: MU-ICT interns
+Author URI: https://github.com/mikahaftamu
+Template: buddyx
+Version: 1.0.0
+*/
+
+
+@import url("../buddyx/style.css");
+
+
+/*
+for hiding the search and message icon
+*/
+/* Hide BuddyX header search and message icons */
+/* Hide the search icon */
+/* Hide the search icon */
+
+.profile-add-project .dashicons-plus {
+    cursor: pointer;
+    color: #0073aa;
+    transition: color 0.2s;
+}
+.profile-add-project .dashicons-plus:hover {
+    color: #00a32a;
+}
+
+
+/* Custom Login Form Styles */
+.buddyx-login-container {
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.buddyx-login-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e5e7eb;
+}
+
+.buddyx-login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.buddyx-login-header h2 {
+    color: #111827;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.buddyx-login-header p {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.buddyx-form-group {
+    margin-bottom: 20px;
+}
+
+.buddyx-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.buddyx-input-group {
+    position: relative;
+}
+
+.buddyx-input-group svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    width: 16px;
+    height: 16px;
+}
+
+.buddyx-login-form input[type="text"],
+.buddyx-login-form input[type="password"] {
+    width: 100%;
+    padding: 12px 12px 12px 38px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: #f9fafb;
+}
+
+.buddyx-login-form input[type="text"]:focus,
+.buddyx-login-form input[type="password"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    outline: none;
+    background-color: #fff;
+}
+
+.buddyx-form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.buddyx-remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4b5563;
+}
+
+.buddyx-remember-me input {
+    width: 16px;
+    height: 16px;
+    accent-color: #3b82f6;
+}
+
+.buddyx-forgot-password {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.buddyx-forgot-password:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.buddyx-login-button {
+    width: 100%;
+    background: #3b82f6;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+.buddyx-login-button:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+}
+
+.buddyx-login-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 20px;
+}
+
+.buddyx-login-footer a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.buddyx-login-footer a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.buddyx-continue-guest {
+    font-weight: 500;
+}
+
+.buddyx-alert-error {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #dc2626;
+    background: #fef2f2;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.buddyx-alert-error svg {
+    flex-shrink: 0;
+}
+/* Main container styles with gradient background */
+.buddyx-login-page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.buddyx-login-left-section {
+    flex: 1;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.buddyx-login-left-content {
+    max-width: 500px;
+    text-align: center;
+    z-index: 2;
+}
+
+.buddyx-login-left-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.buddyx-login-left-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.buddyx-login-left-section::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    bottom: -50px;
+    left: -50px;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+    z-index: 1;
+}
+
+.buddyx-login-right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Adjust the existing container */
+.buddyx-login-container {
+    max-width: 420px;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .buddyx-login-page-wrapper {
+        flex-direction: column;
+    }
+    
+    .buddyx-login-left-section {
+        padding: 60px 20px;
+    }
+    
+    .buddyx-login-right-section {
+        padding: 40px 20px;
+    }
+}
+
+/* Animation effects */
+.buddyx-login-left-section {
+    animation: fadeInLeft 0.8s ease-out;
+}
+
+.buddyx-login-container {
+    animation: fadeInRight 0.8s ease-out;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+/*
+for the publication
+*/
+
+/* Publication Styling */
+/* .single-publication .entry-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2a4365;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .single-publication .entry-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .single-publication p {
+    margin: 10px 0;
+  }
+  
+  .single-publication a {
+    color: #1e88e5;
+    text-decoration: none;
+  }
+  
+  .single-publication a:hover {
+    text-decoration: underline;
+  }
+  
+  .publication-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .publication-nav a {
+    padding: 8px 16px;
+    background-color: #2a4365;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .publication-nav a:hover {
+    background-color: #1a365d;
+  } */
+  
+
+  /*
+  members/single.publication.php
+  */
+  .publication-card a {
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+.publication-card a:hover {
+    color: #005f8d;
+}
+
+.publication-heading {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Publications Archive */
+.buddyx-publications-archive {
+    padding: 40px 0;
+}
+
+.publications-filters {
+    margin-bottom: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.publication-card {
+    margin-bottom: 30px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.publication-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.publication-thumbnail {
+    margin-bottom: 15px;
+}
+
+.publication-thumbnail img {
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.publication-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.publication-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.publication-title a:hover {
+    color: var(--buddyx-primary);
+}
+
+.publication-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.publication-authors a {
+    color: var(--buddyx-link-color);
+    text-decoration: none;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.publication-excerpt {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.publication-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Single Publication */
+.buddyx-single-publication .publication-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.buddyx-single-publication .publication-title {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.buddyx-single-publication .publication-meta {
+    margin-bottom: 20px;
+}
+
+.buddyx-single-publication .badge {
+    background: var(--buddyx-primary);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.buddyx-single-publication .publication-sidebar {
+    margin-bottom: 20px;
+}
+
+.buddyx-single-publication .publication-sidebar h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: var(--buddyx-primary);
+}
+
+.buddyx-single-publication .publication-abstract {
+    margin-bottom: 30px;
+}
+
+.buddyx-single-publication .publication-graphical-abstract img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.buddyx-single-publication .publication-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .publications-filters .buddyx-col-md-3 {
+        margin-bottom: 15px;
+    }
+    
+    .buddyx-single-publication .publication-content .buddyx-col-md-8,
+    .buddyx-single-publication .publication-content .buddyx-col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .buddyx-single-publication .publication-sidebar {
+        margin-top: 30px;
+    }
+}
+
+
+
+/*
+for the project
+*/
+
+.project-modal { display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; overflow:auto; background:rgba(0,0,0,0.5);}
+.project-modal-content { background:#fff; margin:5% auto; padding:30px; border-radius:8px; width:90%; max-width:500px; position:relative;}
+.project-modal-close { position:absolute; top:10px; right:20px; font-size:28px; cursor:pointer;}
+#add-project-form label { display:block; margin-top:15px; }
+#add-project-form input, #add-project-form textarea, #add-project-form select { width:100%; padding:8px; margin-top:5px; border-radius:4px; border:1px solid #ccc;}
+#add-project-form button { margin-top:20px; background:#0073aa; color:#fff; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;}
+#add-project-form button:hover { background:#005177; }
+#project-form-message { margin-top:15px; }
+
+
+/*
+fCSS for Beautiful Project Cards
+*/
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 30px;
+}
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px;
+    width: 100%;
+    max-width: 350px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s;
+}
+.project-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+.project-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.project-status {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    color: #fff;
+}
+.status-pending { background: #f0ad4e; }
+.status-approved { background: #5cb85c; }
+.status-rejected { background: #d9534f; }
+.project-card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.project-card-body li {
+    margin-bottom: 6px;
+}
+.project-card-body a {
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+
+.project-card-footer {
+    margin-top: 16px;
+    text-align: right;
+}
+.add-collaborator-btn {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.add-collaborator-btn:hover {
+    background: #005177;
+}
+
+/*
+for the delete project
+*/
+.delete-project-btn .dashicons-trash {
+    color: #d9534f;
+    transition: color 0.2s;
+}
+.delete-project-btn:hover .dashicons-trash {
+    color: #a94442;
+}
+
+
