@@ -3,6 +3,8 @@
 📘 Overview
 The Mekelle University Research and Collaboration WordPress Project is a web platform designed to showcase and manage research outputs, foster collaboration among faculty, students, and external partners, and enhance the visibility of Mekelle University’s academic contributions. Built on WordPress, this project includes custom themes and plugins to support research publication management, collaborative tools, and institutional repository integration. It aims to align with Mekelle University’s mission to advance knowledge and strengthen research partnerships.
 
+
+
 ✨ Features
 
 
@@ -38,6 +40,9 @@ Email alerts for new research submissions or collaboration requests.
 
 🎨 Custom Theme
 Responsive, university-branded design for an enhanced user experience.
+
+
+
 
 
 
