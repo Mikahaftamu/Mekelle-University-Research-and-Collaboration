@@ -55,28 +55,7 @@ Plugins: Custom plugins for research management and collaboration (e.g., Advance
 Tools: Git (version control), Composer (PHP dependencies), npm (frontend dependencies)
 
 
-📂 Repository & File Structure
-This project is hosted at https://github.com/Mikahaftamu/Mekelle_University_Research_Collaboration_WordPress as a private repository. The structure includes WordPress core files, custom themes, and plugins:
-Mekelle_University_Research_Collaboration_WordPress/
-├── wordpress/              # WordPress core files
-│   ├── wp-admin/          # Admin interface
-│   ├── wp-content/        # Themes, plugins, uploads
-│   │   ├── themes/        # Custom theme (e.g., mu-research-theme/)
-│   │   │   ├── style.css  # Theme stylesheet
-│   │   │   ├── functions.php # Theme functions
-│   │   │   └── ...
-│   │   ├── plugins/       # Custom plugins (e.g., mu-research-plugin/)
-│   │   │   ├── mu-research-plugin.php # Main plugin file
-│   │   │   └── ...
-│   │   └── uploads/       # Research document uploads
-│   ├── wp-includes/       # WordPress core includes
-│   └── wp-config.php      # Configuration file
-├── .env                   # Environment variables (e.g., DB credentials)
-├── docker-compose.yml     # Docker setup (optional)
-├── README.md              # This file
-└── .gitignore             # Excludes sensitive files (e.g., .env)
 
-Note: The structure assumes a standard WordPress installation with custom additions. Share a specific directory listing if your setup differs.
 
 🚀 Installation
 Prerequisites
