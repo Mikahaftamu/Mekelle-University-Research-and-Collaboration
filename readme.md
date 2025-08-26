@@ -50,7 +50,6 @@ Plugins: Custom plugins for research management and collaboration (e.g., Advance
 Tools: Git (version control), Composer (PHP dependencies), npm (frontend dependencies)
 
 
-
 📂 Repository & File Structure
 This project is hosted at https://github.com/Mikahaftamu/Mekelle_University_Research_Collaboration_WordPress as a private repository. The structure includes WordPress core files, custom themes, and plugins:
 Mekelle_University_Research_Collaboration_WordPress/
@@ -79,7 +78,7 @@ Prerequisites
 
 PHP >= 8.0
 MySQL
-Web server (e.g., Apache, Nginx) 
+Web server (e.g., Apache, Nginx)
 
 Steps
 
